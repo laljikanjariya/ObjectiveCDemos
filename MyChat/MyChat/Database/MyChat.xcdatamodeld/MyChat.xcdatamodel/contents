@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C68" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Messages" representedClassName="Messages" syncable="YES">
+        <attribute name="fromMsg" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isSeen" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isSent" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="msgURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="stringMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toMsg" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="userData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserData" inverseName="messages" inverseEntity="UserData" syncable="YES"/>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES">
+        <attribute name="emailID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastActiveTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userStatus" optional="YES" attributeType="Integer 16" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Messages" inverseName="userData" inverseEntity="Messages" syncable="YES"/>
+        <fetchedProperty name="myUnreadMessages" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Messages" predicateString="isSeen == 0 AND fromMsg == $FETCH_SOURCE.uID"/>
+        </fetchedProperty>
+    </entity>
+    <elements>
+        <element name="Messages" positionX="-54" positionY="-9" width="128" height="210"/>
+        <element name="UserData" positionX="-63" positionY="-18" width="128" height="194"/>
+    </elements>
+</model>

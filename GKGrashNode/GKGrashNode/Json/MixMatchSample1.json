@@ -1,0 +1,372 @@
+{
+    "Items" : [
+               {
+               "Code": 1,
+               "Name": "MM Item - 1001",
+               "SinglePrice": 5
+               },
+               {
+               "Code": 2,
+               "Name": "MM Item - 1002",
+               "SinglePrice": 10
+               },
+               {
+               "Code": 3,
+               "Name": "MM Item - 1003",
+               "SinglePrice": 10
+               },
+               {
+               "Code": 4,
+               "Name": "MM Item - 1004",
+               "SinglePrice": 25
+               },
+               {
+               "Code": 5,
+               "Name": "MM Item - 1005",
+               "SinglePrice": 50
+               },
+               {
+               "Code": 6,
+               "Name": "MM Item - 1006",
+               "SinglePrice": 70
+               },
+               {
+               "Code": 7,
+               "Name": "MM Item - 1007",
+               "SinglePrice": 80
+               },
+               {
+               "Code": 8,
+               "Name": "MM Item - 1008",
+               "SinglePrice": 100
+               },
+               {
+               "Code": 9,
+               "Name": "MM Item - 1009",
+               "SinglePrice": 125
+               },
+               {
+               "Code": 10,
+               "Name": "MM Item - 1010",
+               "SinglePrice": 150
+               },
+               {
+               "Code": 11,
+               "Name": "MM Item - 1011",
+               "SinglePrice": 200
+               },
+               {
+               "Code": 12,
+               "Name": "MM Item - 1012",
+               "SinglePrice": 300
+               }
+               ],
+
+    "Discounts" : [
+                   {
+                   "Code": 1,
+                   "Name": "MMD - 1",
+                   "Value": 5,
+                   "PrimaryItemCode": 1,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 0
+                   },
+                   {
+                   "Code": 2,
+                   "Name": "MMD - 2",
+                   "Value": 7,
+                   "PrimaryItemCode": 2,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 3,
+                   "YItem": 3
+                   },
+                   {
+                   "Code": 3,
+                   "Name": "MMD - 3",
+                   "Value": 10,
+                   "PrimaryItemCode": 3,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 0
+                   },
+                   {
+                   "Code": 4,
+                   "Name": "MMD - 4",
+                   "Value": 10,
+                   "PrimaryItemCode": 1,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 2,
+                   "YItem": 6
+                   },
+                   {
+                   "Code": 5,
+                   "Name": "MMD - 5",
+                   "Value": 10,
+                   "PrimaryItemCode": 7,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 2,
+                   "YItem": 6
+                   },
+                   {
+                   "Code": 6,
+                   "Name": "MMD - 6",
+                   "Value": 10,
+                   "PrimaryItemCode": 8,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 2,
+                   "YItem": 6
+                   },
+                   {
+                   "Code": 13,
+                   "Name": "MMD - 13",
+                   "Value": 10,
+                   "PrimaryItemCode": 4,
+                   "PrimaryQty": 3,
+                   "SecondaryQty": 0
+                   },
+                   {
+                   "Code": 14,
+                   "Name": "MMD - 14",
+                   "Value": 12,
+                   "PrimaryItemCode": 4,
+                   "PrimaryQty": 4,
+                   "SecondaryQty": 0
+                   },
+                   {
+                   "Code": 15,
+                   "Name": "MMD - 15",
+                   "Value": 10,
+                   "PrimaryItemCode": 5,
+                   "PrimaryQty": 4,
+                   "SecondaryQty": 0
+                   },
+                   {
+                   "Code": 16,
+                   "Name": "MMD - 16",
+                   "Value": 12,
+                   "PrimaryItemCode": 5,
+                   "PrimaryQty": 5,
+                   "SecondaryQty": 0
+                   }
+                   ],
+
+    "Bills" : [
+               {
+               "Bill": 1,
+               "Items": [
+                         {"I": 1,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 2,
+               "Items": [
+                         {"I": 1,
+                         "Q": 4}
+                         ]
+               },
+               {
+               "Bill": 3,
+               "Items": [
+                         {"I": 1,
+                         "Q": 4},
+                         {"I": 6,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 4,
+               "Items": [
+                         {"I": 1,
+                         "Q": 6},
+                         {"I": 6,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 5,
+               "Items": [
+                         {"I": 1,
+                         "Q": 6},
+                         {"I": 6,
+                         "Q": 4},
+                         ]
+               },
+               {
+               "Bill": 6,
+               "Items": [
+                         {"I": 3,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 7,
+               "Items": [
+                         {"I": 2,
+                         "Q": 3},
+                         {"I": 3,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 9,
+               "Items": [
+                         {"I": 4,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 10,
+               "Items": [
+                         {"I": 4,
+                         "Q": 4}
+                         ]
+               },
+               {
+               "Bill": 11,
+               "Items": [
+                         {"I": 4,
+                         "Q": 5}
+                         ]
+               },
+               {
+               "Bill": 12,
+               "Items": [
+                         {"I": 4,
+                         "Q": 6},
+                         ]
+               },
+               {
+               "Bill": 13,
+               "Items": [
+                         {"I": 4,
+                         "Q": 7}
+                         ]
+               },
+               {
+               "Bill": 15,
+               "Items": [
+                         {"I": 5,
+                         "Q": 4}
+                         ]
+               },
+               {
+               "Bill": 16,
+               "Items": [
+                         {"I": 5,
+                         "Q": 5}
+                         ]
+               },
+               {
+               "Bill": 17,
+               "Items": [
+                         {"I": 5,
+                         "Q": 6}
+                         ]
+               },
+               {
+               "Bill": 18,
+               "Items": [
+                         {"I": 5,
+                         "Q": 7}
+                         ]
+               },
+               {
+               "Bill": 19,
+               "Items": [
+                         {"I": 5,
+                         "Q": 8}
+                         ]
+               },
+               {
+               "Bill": 20,
+               "Items": [
+                         {"I": 5,
+                         "Q": 9}
+                         ]
+               },
+               {
+               "Bill": 22,
+               "Items": [
+                         {"I": 6,
+                         "Q": 3},
+                         {"I": 7,
+                         "Q": 3},
+                         {"I": 8,
+                         "Q": 3}
+                         ]
+               },
+               {
+               "Bill": 23,
+               "Items": [
+                         {"I": 6,
+                         "Q": 3},
+                         {"I": 7,
+                         "Q": 3},
+                         {"I": 8,
+                         "Q": 2}
+                         ]
+               },
+               {
+               "Bill": 200,
+               "Items": [
+                         {"I": 1,
+                         "Q": 3},
+                         {"I": 1,
+                         "Q": 4},
+                         {"I": 1,
+                         "Q": 4},
+                         {"I": 6,
+                         "Q": 3},
+                         {"I": 1,
+                         "Q": 6},
+                         {"I": 6,
+                         "Q": 3},
+                         {"I": 1,
+                         "Q": 6},
+                         {"I": 6,
+                         "Q": 4},
+                         {"I": 3,
+                         "Q": 3},
+                         {"I": 2,
+                         "Q": 3},
+                         {"I": 3,
+                         "Q": 3},
+                         {"I": 4,
+                         "Q": 3},
+                         {"I": 4,
+                         "Q": 4},
+                         {"I": 4,
+                         "Q": 5},
+                         {"I": 4,
+                         "Q": 6},
+                         {"I": 4,
+                         "Q": 7},
+                         {"I": 5,
+                         "Q": 4},
+                         {"I": 5,
+                         "Q": 5},
+                         {"I": 5,
+                         "Q": 6},
+                         {"I": 5,
+                         "Q": 7},
+                         {"I": 5,
+                         "Q": 8},
+                         {"I": 5,
+                         "Q": 9},
+                         {"I": 6,
+                         "Q": 3},
+                         {"I": 7,
+                         "Q": 3},
+                         {"I": 8,
+                         "Q": 3},
+                         {"I": 6,
+                         "Q": 3},
+                         {"I": 7,
+                         "Q": 3},
+                         {"I": 8,
+                         "Q": 2}
+                         ]
+               }
+
+               ]
+}

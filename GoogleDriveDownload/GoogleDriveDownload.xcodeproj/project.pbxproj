@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B47EF0C0BE11306E6A44D0F /* libPods-GoogleDriveDownload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9F16F81395810BCA6D25C5 /* libPods-GoogleDriveDownload.a */; };
+		9B285ECD1F7E550000AC379E /* GoogleDriveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B285ECC1F7E550000AC379E /* GoogleDriveFile.m */; };
+		9B285ED01F7E598200AC379E /* RapidGoogleDriveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B285ECF1F7E598200AC379E /* RapidGoogleDriveOperation.m */; };
+		9B7AFC9C1F7D07B100727051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AFC9B1F7D07B100727051 /* main.m */; };
+		9B7AFC9F1F7D07B100727051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AFC9E1F7D07B100727051 /* AppDelegate.m */; };
+		9B7AFCA21F7D07B100727051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AFCA11F7D07B100727051 /* ViewController.m */; };
+		9B7AFCA51F7D07B100727051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AFCA31F7D07B100727051 /* Main.storyboard */; };
+		9B7AFCA81F7D07B200727051 /* GoogleDriveDownload.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AFCA61F7D07B100727051 /* GoogleDriveDownload.xcdatamodeld */; };
+		9B7AFCAA1F7D07B200727051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AFCA91F7D07B200727051 /* Assets.xcassets */; };
+		9B7AFCAD1F7D07B200727051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AFCAB1F7D07B200727051 /* LaunchScreen.storyboard */; };
+		9B7AFCB71F7D0C9B00727051 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AFCB61F7D0C9B00727051 /* GoogleService-Info.plist */; };
+		9BE01DC41F7E1FC1008192CE /* RapidGoogleSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE01DC31F7E1FC1008192CE /* RapidGoogleSignIn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AFD3B5C6AF55BD982E188AA /* Pods-GoogleDriveDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownload/Pods-GoogleDriveDownload.release.xcconfig"; sourceTree = "<group>"; };
+		3C9F16F81395810BCA6D25C5 /* libPods-GoogleDriveDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDriveDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934679DC3083242CB5A4B06F /* Pods-GoogleDriveDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownload/Pods-GoogleDriveDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		9B285ECB1F7E550000AC379E /* GoogleDriveFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDriveFile.h; sourceTree = "<group>"; };
+		9B285ECC1F7E550000AC379E /* GoogleDriveFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleDriveFile.m; sourceTree = "<group>"; };
+		9B285ECE1F7E598200AC379E /* RapidGoogleDriveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidGoogleDriveOperation.h; sourceTree = "<group>"; };
+		9B285ECF1F7E598200AC379E /* RapidGoogleDriveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidGoogleDriveOperation.m; sourceTree = "<group>"; };
+		9B7AFC971F7D07B000727051 /* GoogleDriveDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDriveDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7AFC9B1F7D07B100727051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B7AFC9D1F7D07B100727051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B7AFC9E1F7D07B100727051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B7AFCA01F7D07B100727051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B7AFCA11F7D07B100727051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B7AFCA41F7D07B100727051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B7AFCA71F7D07B100727051 /* GoogleDriveDownload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleDriveDownload.xcdatamodel; sourceTree = "<group>"; };
+		9B7AFCA91F7D07B200727051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B7AFCAC1F7D07B200727051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B7AFCAE1F7D07B200727051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7AFCB61F7D0C9B00727051 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BE01DC21F7E1FC1008192CE /* RapidGoogleSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidGoogleSignIn.h; sourceTree = "<group>"; };
+		9BE01DC31F7E1FC1008192CE /* RapidGoogleSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidGoogleSignIn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7AFC941F7D07B000727051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B47EF0C0BE11306E6A44D0F /* libPods-GoogleDriveDownload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B7AFC8E1F7D07AF00727051 = {
+			isa = PBXGroup;
+			children = (
+				9B7AFC991F7D07B000727051 /* GoogleDriveDownload */,
+				9B7AFC981F7D07B000727051 /* Products */,
+				C1DD7D69366B0F01CDFD523D /* Pods */,
+				D7E4810B7CB80EDC3665FD4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B7AFC981F7D07B000727051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B7AFC971F7D07B000727051 /* GoogleDriveDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B7AFC991F7D07B000727051 /* GoogleDriveDownload */ = {
+			isa = PBXGroup;
+			children = (
+				9B7AFC9D1F7D07B100727051 /* AppDelegate.h */,
+				9B7AFC9E1F7D07B100727051 /* AppDelegate.m */,
+				9B7AFCA01F7D07B100727051 /* ViewController.h */,
+				9B7AFCA11F7D07B100727051 /* ViewController.m */,
+				9B7AFCB61F7D0C9B00727051 /* GoogleService-Info.plist */,
+				9B7AFCA31F7D07B100727051 /* Main.storyboard */,
+				9B7AFCA91F7D07B200727051 /* Assets.xcassets */,
+				9B7AFCAB1F7D07B200727051 /* LaunchScreen.storyboard */,
+				9B7AFCAE1F7D07B200727051 /* Info.plist */,
+				9B7AFCA61F7D07B100727051 /* GoogleDriveDownload.xcdatamodeld */,
+				9B7AFC9A1F7D07B100727051 /* Supporting Files */,
+				9BE01DC21F7E1FC1008192CE /* RapidGoogleSignIn.h */,
+				9BE01DC31F7E1FC1008192CE /* RapidGoogleSignIn.m */,
+				9B285ECB1F7E550000AC379E /* GoogleDriveFile.h */,
+				9B285ECC1F7E550000AC379E /* GoogleDriveFile.m */,
+				9B285ECE1F7E598200AC379E /* RapidGoogleDriveOperation.h */,
+				9B285ECF1F7E598200AC379E /* RapidGoogleDriveOperation.m */,
+			);
+			path = GoogleDriveDownload;
+			sourceTree = "<group>";
+		};
+		9B7AFC9A1F7D07B100727051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B7AFC9B1F7D07B100727051 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1DD7D69366B0F01CDFD523D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				934679DC3083242CB5A4B06F /* Pods-GoogleDriveDownload.debug.xcconfig */,
+				0AFD3B5C6AF55BD982E188AA /* Pods-GoogleDriveDownload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7E4810B7CB80EDC3665FD4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F16F81395810BCA6D25C5 /* libPods-GoogleDriveDownload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B7AFC961F7D07B000727051 /* GoogleDriveDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7AFCB11F7D07B200727051 /* Build configuration list for PBXNativeTarget "GoogleDriveDownload" */;
+			buildPhases = (
+				8404F53F4D66DC6E9CAE3A64 /* 📦 Check Pods Manifest.lock */,
+				9B7AFC931F7D07B000727051 /* Sources */,
+				9B7AFC941F7D07B000727051 /* Frameworks */,
+				9B7AFC951F7D07B000727051 /* Resources */,
+				0B3037B7DB794DA268C70A35 /* 📦 Embed Pods Frameworks */,
+				85EDE26D1BEC93C31966F392 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDriveDownload;
+			productName = GoogleDriveDownload;
+			productReference = 9B7AFC971F7D07B000727051 /* GoogleDriveDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B7AFC8F1F7D07B000727051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Siya-ios5";
+				TargetAttributes = {
+					9B7AFC961F7D07B000727051 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B7AFC921F7D07B000727051 /* Build configuration list for PBXProject "GoogleDriveDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B7AFC8E1F7D07AF00727051;
+			productRefGroup = 9B7AFC981F7D07B000727051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B7AFC961F7D07B000727051 /* GoogleDriveDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B7AFC951F7D07B000727051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7AFCAD1F7D07B200727051 /* LaunchScreen.storyboard in Resources */,
+				9B7AFCB71F7D0C9B00727051 /* GoogleService-Info.plist in Resources */,
+				9B7AFCAA1F7D07B200727051 /* Assets.xcassets in Resources */,
+				9B7AFCA51F7D07B100727051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3037B7DB794DA268C70A35 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownload/Pods-GoogleDriveDownload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8404F53F4D66DC6E9CAE3A64 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85EDE26D1BEC93C31966F392 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownload/Pods-GoogleDriveDownload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B7AFC931F7D07B000727051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7AFCA21F7D07B100727051 /* ViewController.m in Sources */,
+				9B7AFC9F1F7D07B100727051 /* AppDelegate.m in Sources */,
+				9BE01DC41F7E1FC1008192CE /* RapidGoogleSignIn.m in Sources */,
+				9B285ECD1F7E550000AC379E /* GoogleDriveFile.m in Sources */,
+				9B7AFCA81F7D07B200727051 /* GoogleDriveDownload.xcdatamodeld in Sources */,
+				9B285ED01F7E598200AC379E /* RapidGoogleDriveOperation.m in Sources */,
+				9B7AFC9C1F7D07B100727051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B7AFCA31F7D07B100727051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B7AFCA41F7D07B100727051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B7AFCAB1F7D07B200727051 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B7AFCAC1F7D07B200727051 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B7AFCAF1F7D07B200727051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B7AFCB01F7D07B200727051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B7AFCB21F7D07B200727051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934679DC3083242CB5A4B06F /* Pods-GoogleDriveDownload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDriveDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Localization.GoogleDriveDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B7AFCB31F7D07B200727051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AFD3B5C6AF55BD982E188AA /* Pods-GoogleDriveDownload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDriveDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Localization.GoogleDriveDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B7AFC921F7D07B000727051 /* Build configuration list for PBXProject "GoogleDriveDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7AFCAF1F7D07B200727051 /* Debug */,
+				9B7AFCB01F7D07B200727051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7AFCB11F7D07B200727051 /* Build configuration list for PBXNativeTarget "GoogleDriveDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7AFCB21F7D07B200727051 /* Debug */,
+				9B7AFCB31F7D07B200727051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B7AFCA61F7D07B100727051 /* GoogleDriveDownload.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B7AFCA71F7D07B100727051 /* GoogleDriveDownload.xcdatamodel */,
+			);
+			currentVersion = 9B7AFCA71F7D07B100727051 /* GoogleDriveDownload.xcdatamodel */;
+			path = GoogleDriveDownload.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B7AFC8F1F7D07B000727051 /* Project object */;
+}

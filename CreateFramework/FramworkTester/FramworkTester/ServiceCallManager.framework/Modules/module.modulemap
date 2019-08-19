@@ -1,0 +1,6 @@
+framework module ServiceCallManager {
+  umbrella header "ServiceCallManager.h"
+
+  export *
+  module * { export * }
+}

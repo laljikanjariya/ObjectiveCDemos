@@ -1,0 +1,25 @@
+PODS:
+  - Google-Maps-iOS-Utils (1.0.1):
+    - Google-Maps-iOS-Utils/Clustering (= 1.0.1)
+    - Google-Maps-iOS-Utils/QuadTree (= 1.0.1)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (1.0.1):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (1.0.1):
+    - GoogleMaps
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+
+DEPENDENCIES:
+  - Google-Maps-iOS-Utils
+  - GoogleMaps
+
+SPEC CHECKSUMS:
+  Google-Maps-iOS-Utils: 7e3cd191e98ad5aae5282be9ed2e4e4fee3a327a
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+
+COCOAPODS: 0.39.0

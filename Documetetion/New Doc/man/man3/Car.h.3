@@ -1,0 +1,73 @@
+.TH "DocumentationExamples/Car.h" 3 "Fri Sep 11 2015" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DocumentationExamples/Car.h \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#import <Foundation/Foundation\&.h>\fP
+.br
+
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef void(^ \fBdriveCompletion\fP) (CGFloat distance)"
+.br
+.RI "\fIA block that makes the car drive\&. \fP"
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBOldCarType\fP { \fBOldCarTypeModelT\fP, \fBOldCarTypeModelA\fP }
+.RI "\fIA list of older car types\&.  OldCarTypeModelT A cool old car\&.  OldCarTypeModelA A sophisticated old car\&. \fP""
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "typedef \fBNS_ENUM\fP (NSInteger, CarType)"
+.br
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef void(^ driveCompletion) (CGFloat distance)"
+
+.PP
+A block that makes the car drive\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdistance\fP The distance is equal to a distance driven when the block is ready to execute\&. It could be miles, or kilometers, but not both\&. Just pick one and stick with it\&. 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file Car\&.h\&.
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBOldCarType\fP"
+
+.PP
+A list of older car types\&.  OldCarTypeModelT A cool old car\&.  OldCarTypeModelA A sophisticated old car\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIOldCarTypeModelT \fP\fP
+.TP
+\fB\fIOldCarTypeModelA \fP\fP
+.PP
+Definition at line 17 of file Car\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "typedef NS_ENUM (NSInteger, CarType)"
+
+.PP
+Definition at line 30 of file Car\&.h\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

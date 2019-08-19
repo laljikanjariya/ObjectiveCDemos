@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9209FC741E4DC29B009601E5 /* RapidRMSLiveUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC731E4DC29B009601E5 /* RapidRMSLiveUpdate.m */; };
+		9209FC7F1E4DC8D5009601E5 /* RapidOnSitePumpCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC7A1E4DC8D5009601E5 /* RapidOnSitePumpCart.m */; };
+		9209FC801E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC7C1E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.m */; };
+		9209FC851E4DCA7A009601E5 /* RapidRMSPumpCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC821E4DCA7A009601E5 /* RapidRMSPumpCart.m */; };
+		9209FC861E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC841E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.m */; };
+		9209FC891E4DCE70009601E5 /* RapidRMSPumpCartsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC881E4DCE70009601E5 /* RapidRMSPumpCartsVC.m */; };
+		9209FC8C1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209FC8B1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.m */; };
+		925094D81E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 925094CF1E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.m */; };
+		925094D91E4AE5FC00B21E20 /* FuelPump.m in Sources */ = {isa = PBXBuildFile; fileRef = 925094D11E4AE5FC00B21E20 /* FuelPump.m */; };
+		925094DA1E4AE5FC00B21E20 /* PumpDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 925094D31E4AE5FC00B21E20 /* PumpDBManager.m */; };
+		925094DB1E4AE5FC00B21E20 /* PumpSnycManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 925094D51E4AE5FC00B21E20 /* PumpSnycManager.m */; };
+		925094DC1E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 925094D61E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodeld */; };
+		925094DF1E4AE6FB00B21E20 /* UpdatePumpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 925094DE1E4AE6FB00B21E20 /* UpdatePumpManager.m */; };
+		925094E21E4B1FAD00B21E20 /* XMLtoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 925094E11E4B1FAD00B21E20 /* XMLtoObject.m */; };
+		92AAF9881E4ADA76001E5758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AAF9871E4ADA76001E5758 /* main.m */; };
+		92AAF98B1E4ADA76001E5758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AAF98A1E4ADA76001E5758 /* AppDelegate.m */; };
+		92AAF98E1E4ADA76001E5758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AAF98D1E4ADA76001E5758 /* ViewController.m */; };
+		92AAF9911E4ADA76001E5758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AAF98F1E4ADA76001E5758 /* Main.storyboard */; };
+		92AAF9961E4ADA77001E5758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AAF9951E4ADA77001E5758 /* Assets.xcassets */; };
+		92AAF9991E4ADA77001E5758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AAF9971E4ADA77001E5758 /* LaunchScreen.storyboard */; };
+		A0312DED2F90F54774795E60 /* libPods-PumpUpdateXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C82C9C3423B53388F21DC4 /* libPods-PumpUpdateXML.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59C82C9C3423B53388F21DC4 /* libPods-PumpUpdateXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PumpUpdateXML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9209FC721E4DC29B009601E5 /* RapidRMSLiveUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidRMSLiveUpdate.h; sourceTree = "<group>"; };
+		9209FC731E4DC29B009601E5 /* RapidRMSLiveUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidRMSLiveUpdate.m; sourceTree = "<group>"; };
+		9209FC791E4DC8D5009601E5 /* RapidOnSitePumpCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidOnSitePumpCart.h; sourceTree = "<group>"; };
+		9209FC7A1E4DC8D5009601E5 /* RapidOnSitePumpCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidOnSitePumpCart.m; sourceTree = "<group>"; };
+		9209FC7B1E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RapidOnSitePumpCart+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9209FC7C1E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RapidOnSitePumpCart+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9209FC811E4DCA7A009601E5 /* RapidRMSPumpCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidRMSPumpCart.h; sourceTree = "<group>"; };
+		9209FC821E4DCA7A009601E5 /* RapidRMSPumpCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidRMSPumpCart.m; sourceTree = "<group>"; };
+		9209FC831E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RapidRMSPumpCart+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9209FC841E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RapidRMSPumpCart+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9209FC871E4DCE70009601E5 /* RapidRMSPumpCartsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidRMSPumpCartsVC.h; sourceTree = "<group>"; };
+		9209FC881E4DCE70009601E5 /* RapidRMSPumpCartsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidRMSPumpCartsVC.m; sourceTree = "<group>"; };
+		9209FC8A1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidOnSitePumpCartsVC.h; sourceTree = "<group>"; };
+		9209FC8B1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapidOnSitePumpCartsVC.m; sourceTree = "<group>"; };
+		925094CE1E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FuelPump+CoreDataProperties.h"; sourceTree = "<group>"; };
+		925094CF1E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FuelPump+CoreDataProperties.m"; sourceTree = "<group>"; };
+		925094D01E4AE5FC00B21E20 /* FuelPump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelPump.h; sourceTree = "<group>"; };
+		925094D11E4AE5FC00B21E20 /* FuelPump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelPump.m; sourceTree = "<group>"; };
+		925094D21E4AE5FC00B21E20 /* PumpDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumpDBManager.h; sourceTree = "<group>"; };
+		925094D31E4AE5FC00B21E20 /* PumpDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumpDBManager.m; sourceTree = "<group>"; };
+		925094D41E4AE5FC00B21E20 /* PumpSnycManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumpSnycManager.h; sourceTree = "<group>"; };
+		925094D51E4AE5FC00B21E20 /* PumpSnycManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumpSnycManager.m; sourceTree = "<group>"; };
+		925094D71E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PumpUpdateXML.xcdatamodel; sourceTree = "<group>"; };
+		925094DD1E4AE6FB00B21E20 /* UpdatePumpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePumpManager.h; sourceTree = "<group>"; };
+		925094DE1E4AE6FB00B21E20 /* UpdatePumpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatePumpManager.m; sourceTree = "<group>"; };
+		925094E01E4B1FAD00B21E20 /* XMLtoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLtoObject.h; sourceTree = "<group>"; };
+		925094E11E4B1FAD00B21E20 /* XMLtoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLtoObject.m; sourceTree = "<group>"; };
+		92AAF9831E4ADA75001E5758 /* PumpUpdateXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PumpUpdateXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AAF9871E4ADA76001E5758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92AAF9891E4ADA76001E5758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92AAF98A1E4ADA76001E5758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92AAF98C1E4ADA76001E5758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92AAF98D1E4ADA76001E5758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92AAF9901E4ADA76001E5758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92AAF9951E4ADA77001E5758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92AAF9981E4ADA77001E5758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92AAF99A1E4ADA77001E5758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC0E73F1DA4BFD166BE00AC /* Pods-PumpUpdateXML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PumpUpdateXML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PumpUpdateXML/Pods-PumpUpdateXML.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4E017E4704D350AAC3A168 /* Pods-PumpUpdateXML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PumpUpdateXML.release.xcconfig"; path = "Pods/Target Support Files/Pods-PumpUpdateXML/Pods-PumpUpdateXML.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AAF9801E4ADA74001E5758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0312DED2F90F54774795E60 /* libPods-PumpUpdateXML.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CF03009FF83AF608296FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59C82C9C3423B53388F21DC4 /* libPods-PumpUpdateXML.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E03CFBBA87A2E7C1C765D14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CC0E73F1DA4BFD166BE00AC /* Pods-PumpUpdateXML.debug.xcconfig */,
+				DB4E017E4704D350AAC3A168 /* Pods-PumpUpdateXML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		925094CC1E4AE5FC00B21E20 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				925094CD1E4AE5FC00B21E20 /* Models */,
+				925094D21E4AE5FC00B21E20 /* PumpDBManager.h */,
+				925094D31E4AE5FC00B21E20 /* PumpDBManager.m */,
+				925094D41E4AE5FC00B21E20 /* PumpSnycManager.h */,
+				925094D51E4AE5FC00B21E20 /* PumpSnycManager.m */,
+				9209FC721E4DC29B009601E5 /* RapidRMSLiveUpdate.h */,
+				9209FC731E4DC29B009601E5 /* RapidRMSLiveUpdate.m */,
+				925094DD1E4AE6FB00B21E20 /* UpdatePumpManager.h */,
+				925094DE1E4AE6FB00B21E20 /* UpdatePumpManager.m */,
+				925094E01E4B1FAD00B21E20 /* XMLtoObject.h */,
+				925094E11E4B1FAD00B21E20 /* XMLtoObject.m */,
+				925094D61E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		925094CD1E4AE5FC00B21E20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9209FC811E4DCA7A009601E5 /* RapidRMSPumpCart.h */,
+				9209FC821E4DCA7A009601E5 /* RapidRMSPumpCart.m */,
+				9209FC831E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.h */,
+				9209FC841E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.m */,
+				9209FC791E4DC8D5009601E5 /* RapidOnSitePumpCart.h */,
+				9209FC7A1E4DC8D5009601E5 /* RapidOnSitePumpCart.m */,
+				9209FC7B1E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.h */,
+				9209FC7C1E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.m */,
+				925094CE1E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.h */,
+				925094CF1E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.m */,
+				925094D01E4AE5FC00B21E20 /* FuelPump.h */,
+				925094D11E4AE5FC00B21E20 /* FuelPump.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92AAF97A1E4ADA74001E5758 = {
+			isa = PBXGroup;
+			children = (
+				92AAF9851E4ADA76001E5758 /* PumpUpdateXML */,
+				92AAF9841E4ADA75001E5758 /* Products */,
+				4E03CFBBA87A2E7C1C765D14 /* Pods */,
+				27CF03009FF83AF608296FAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92AAF9841E4ADA75001E5758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AAF9831E4ADA75001E5758 /* PumpUpdateXML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AAF9851E4ADA76001E5758 /* PumpUpdateXML */ = {
+			isa = PBXGroup;
+			children = (
+				925094CC1E4AE5FC00B21E20 /* CoreData */,
+				92AAF9891E4ADA76001E5758 /* AppDelegate.h */,
+				92AAF98A1E4ADA76001E5758 /* AppDelegate.m */,
+				92AAF98C1E4ADA76001E5758 /* ViewController.h */,
+				92AAF98D1E4ADA76001E5758 /* ViewController.m */,
+				9209FC871E4DCE70009601E5 /* RapidRMSPumpCartsVC.h */,
+				9209FC881E4DCE70009601E5 /* RapidRMSPumpCartsVC.m */,
+				9209FC8A1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.h */,
+				9209FC8B1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.m */,
+				92AAF98F1E4ADA76001E5758 /* Main.storyboard */,
+				92AAF9951E4ADA77001E5758 /* Assets.xcassets */,
+				92AAF9971E4ADA77001E5758 /* LaunchScreen.storyboard */,
+				92AAF99A1E4ADA77001E5758 /* Info.plist */,
+				92AAF9861E4ADA76001E5758 /* Supporting Files */,
+			);
+			path = PumpUpdateXML;
+			sourceTree = "<group>";
+		};
+		92AAF9861E4ADA76001E5758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92AAF9871E4ADA76001E5758 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AAF9821E4ADA74001E5758 /* PumpUpdateXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AAF99D1E4ADA77001E5758 /* Build configuration list for PBXNativeTarget "PumpUpdateXML" */;
+			buildPhases = (
+				B40D1AD88263FA30253163A2 /* [CP] Check Pods Manifest.lock */,
+				92AAF97F1E4ADA74001E5758 /* Sources */,
+				92AAF9801E4ADA74001E5758 /* Frameworks */,
+				92AAF9811E4ADA74001E5758 /* Resources */,
+				41FD981FAF218B4136CD6C7C /* [CP] Embed Pods Frameworks */,
+				942190934A0F0E3FDBDB8158 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PumpUpdateXML;
+			productName = PumpUpdateXML;
+			productReference = 92AAF9831E4ADA75001E5758 /* PumpUpdateXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AAF97B1E4ADA74001E5758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Siya9;
+				TargetAttributes = {
+					92AAF9821E4ADA74001E5758 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 92AAF97E1E4ADA74001E5758 /* Build configuration list for PBXProject "PumpUpdateXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92AAF97A1E4ADA74001E5758;
+			productRefGroup = 92AAF9841E4ADA75001E5758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AAF9821E4ADA74001E5758 /* PumpUpdateXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AAF9811E4ADA74001E5758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AAF9991E4ADA77001E5758 /* LaunchScreen.storyboard in Resources */,
+				92AAF9961E4ADA77001E5758 /* Assets.xcassets in Resources */,
+				92AAF9911E4ADA76001E5758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41FD981FAF218B4136CD6C7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PumpUpdateXML/Pods-PumpUpdateXML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942190934A0F0E3FDBDB8158 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PumpUpdateXML/Pods-PumpUpdateXML-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B40D1AD88263FA30253163A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AAF97F1E4ADA74001E5758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AAF98E1E4ADA76001E5758 /* ViewController.m in Sources */,
+				92AAF98B1E4ADA76001E5758 /* AppDelegate.m in Sources */,
+				925094D91E4AE5FC00B21E20 /* FuelPump.m in Sources */,
+				92AAF9881E4ADA76001E5758 /* main.m in Sources */,
+				925094DA1E4AE5FC00B21E20 /* PumpDBManager.m in Sources */,
+				925094DB1E4AE5FC00B21E20 /* PumpSnycManager.m in Sources */,
+				9209FC7F1E4DC8D5009601E5 /* RapidOnSitePumpCart.m in Sources */,
+				9209FC8C1E4DF0FA009601E5 /* RapidOnSitePumpCartsVC.m in Sources */,
+				9209FC801E4DC8D5009601E5 /* RapidOnSitePumpCart+CoreDataProperties.m in Sources */,
+				9209FC741E4DC29B009601E5 /* RapidRMSLiveUpdate.m in Sources */,
+				925094D81E4AE5FC00B21E20 /* FuelPump+CoreDataProperties.m in Sources */,
+				9209FC891E4DCE70009601E5 /* RapidRMSPumpCartsVC.m in Sources */,
+				925094E21E4B1FAD00B21E20 /* XMLtoObject.m in Sources */,
+				9209FC851E4DCA7A009601E5 /* RapidRMSPumpCart.m in Sources */,
+				925094DF1E4AE6FB00B21E20 /* UpdatePumpManager.m in Sources */,
+				9209FC861E4DCA7A009601E5 /* RapidRMSPumpCart+CoreDataProperties.m in Sources */,
+				925094DC1E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92AAF98F1E4ADA76001E5758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AAF9901E4ADA76001E5758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92AAF9971E4ADA77001E5758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AAF9981E4ADA77001E5758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AAF99B1E4ADA77001E5758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AAF99C1E4ADA77001E5758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92AAF99E1E4ADA77001E5758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC0E73F1DA4BFD166BE00AC /* Pods-PumpUpdateXML.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PumpUpdateXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SiyaInfoTech.PumpUpdateXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92AAF99F1E4ADA77001E5758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4E017E4704D350AAC3A168 /* Pods-PumpUpdateXML.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PumpUpdateXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SiyaInfoTech.PumpUpdateXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AAF97E1E4ADA74001E5758 /* Build configuration list for PBXProject "PumpUpdateXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AAF99B1E4ADA77001E5758 /* Debug */,
+				92AAF99C1E4ADA77001E5758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AAF99D1E4ADA77001E5758 /* Build configuration list for PBXNativeTarget "PumpUpdateXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AAF99E1E4ADA77001E5758 /* Debug */,
+				92AAF99F1E4ADA77001E5758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		925094D61E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				925094D71E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodel */,
+			);
+			currentVersion = 925094D71E4AE5FC00B21E20 /* PumpUpdateXML.xcdatamodel */;
+			path = PumpUpdateXML.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92AAF97B1E4ADA74001E5758 /* Project object */;
+}

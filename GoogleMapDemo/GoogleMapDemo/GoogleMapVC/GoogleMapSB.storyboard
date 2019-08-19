@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Google Map DistanceVC-->
+        <scene sceneID="Ufs-rm-piU">
+            <objects>
+                <viewController storyboardIdentifier="GoogleMapDistanceVC_sid" id="ugV-nB-vBe" customClass="GoogleMapDistanceVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gR9-NK-iyC"/>
+                        <viewControllerLayoutGuide type="bottom" id="uVo-Tp-dLU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I3c-eC-Sfl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c25-bK-Plq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WO-4T-yRJ">
+                                        <rect key="frame" x="20" y="25" width="34" height="30"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <action selector="btnBack:" destination="ugV-nB-vBe" eventType="touchUpInside" id="jJY-eE-uJJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8Cy-kh-fMi"/>
+                                    <constraint firstItem="3WO-4T-yRJ" firstAttribute="leading" secondItem="c25-bK-Plq" secondAttribute="leading" constant="20" id="C2W-YV-Xp1"/>
+                                    <constraint firstAttribute="bottom" secondItem="3WO-4T-yRJ" secondAttribute="bottom" constant="5" id="k9j-8P-sBh"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JBq-tu-KzY">
+                                <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DistanceCell" id="EBp-8S-AWr" customClass="DistanceCell">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EBp-8S-AWr" id="GFP-n4-kIE">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lik-kO-puS">
+                                                    <rect key="frame" x="20" y="10" width="432" height="17"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqS-Yu-ybT">
+                                                    <rect key="frame" x="20" y="37" width="432" height="17"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Label asdasd" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnP-cu-geZ">
+                                                    <rect key="frame" x="494" y="10" width="86" height="44"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Bzl-z8-3bn"/>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="yKI-6b-afR"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="lik-kO-puS" firstAttribute="top" secondItem="GFP-n4-kIE" secondAttribute="top" constant="10" id="8YM-0F-ZZG"/>
+                                                <constraint firstItem="KqS-Yu-ybT" firstAttribute="leading" secondItem="GFP-n4-kIE" secondAttribute="leading" constant="20" id="Bu2-4b-GI3"/>
+                                                <constraint firstAttribute="trailing" secondItem="RnP-cu-geZ" secondAttribute="trailing" constant="20" id="EPM-v9-6TT"/>
+                                                <constraint firstAttribute="bottom" secondItem="KqS-Yu-ybT" secondAttribute="bottom" constant="10" id="I1W-Yf-fQ9"/>
+                                                <constraint firstAttribute="bottom" secondItem="RnP-cu-geZ" secondAttribute="bottom" constant="10" id="LUI-TM-UHU"/>
+                                                <constraint firstItem="RnP-cu-geZ" firstAttribute="top" secondItem="GFP-n4-kIE" secondAttribute="top" constant="10" id="M1G-Am-HvG"/>
+                                                <constraint firstItem="lik-kO-puS" firstAttribute="leading" secondItem="GFP-n4-kIE" secondAttribute="leading" constant="20" id="aLr-gh-KoE"/>
+                                                <constraint firstItem="RnP-cu-geZ" firstAttribute="leading" secondItem="lik-kO-puS" secondAttribute="trailing" constant="42" id="at4-nZ-mQE"/>
+                                                <constraint firstItem="RnP-cu-geZ" firstAttribute="leading" secondItem="KqS-Yu-ybT" secondAttribute="trailing" constant="42" id="tY4-qG-YTm"/>
+                                                <constraint firstItem="KqS-Yu-ybT" firstAttribute="top" secondItem="lik-kO-puS" secondAttribute="bottom" constant="10" id="vat-fS-MJw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblDistanceAndTime" destination="RnP-cu-geZ" id="yyR-TF-Ev6"/>
+                                            <outlet property="lblFrom" destination="lik-kO-puS" id="Ug5-17-gsW"/>
+                                            <outlet property="lblTo" destination="KqS-Yu-ybT" id="fq4-3r-6qu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ugV-nB-vBe" id="RYz-Fo-TNW"/>
+                                    <outlet property="delegate" destination="ugV-nB-vBe" id="tnK-6Q-tGI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JBq-tu-KzY" secondAttribute="trailing" id="73l-HP-dNi"/>
+                            <constraint firstItem="uVo-Tp-dLU" firstAttribute="top" secondItem="JBq-tu-KzY" secondAttribute="bottom" id="7kK-fU-PFg"/>
+                            <constraint firstItem="c25-bK-Plq" firstAttribute="leading" secondItem="I3c-eC-Sfl" secondAttribute="leading" id="9Dz-TG-z3D"/>
+                            <constraint firstItem="JBq-tu-KzY" firstAttribute="top" secondItem="c25-bK-Plq" secondAttribute="bottom" id="Ktb-ws-FGs"/>
+                            <constraint firstItem="JBq-tu-KzY" firstAttribute="leading" secondItem="I3c-eC-Sfl" secondAttribute="leading" id="aoQ-jQ-6ZG"/>
+                            <constraint firstAttribute="trailing" secondItem="c25-bK-Plq" secondAttribute="trailing" id="mgL-2i-RbZ"/>
+                            <constraint firstItem="c25-bK-Plq" firstAttribute="top" secondItem="I3c-eC-Sfl" secondAttribute="top" id="xcp-uB-zhn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblList" destination="JBq-tu-KzY" id="SU2-jy-9hW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30a-7V-EAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="779" y="220"/>
+        </scene>
+        <!--Google MapVC-->
+        <scene sceneID="kAT-66-isI">
+            <objects>
+                <viewController storyboardIdentifier="GoogleMapVC_sid" id="7vQ-yH-1fz" customClass="GoogleMapVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0LG-qe-KJD"/>
+                        <viewControllerLayoutGuide type="bottom" id="c3K-Ew-NtJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="GoogleMapVC_sid" id="aAy-MF-vbF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6v0-sJ-GSd">
+                                <rect key="frame" x="40" y="520" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="hoa-Q1-RQL"/>
+                                    <constraint firstAttribute="width" constant="60" id="jyp-lh-OhK"/>
+                                </constraints>
+                                <state key="normal" image="GMDistance.png"/>
+                                <connections>
+                                    <action selector="ShowDistanceInformation:" destination="7vQ-yH-1fz" eventType="touchUpInside" id="iqc-wv-Wb2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c3K-Ew-NtJ" firstAttribute="top" secondItem="6v0-sJ-GSd" secondAttribute="bottom" constant="20" id="NTD-3K-lq2"/>
+                            <constraint firstItem="6v0-sJ-GSd" firstAttribute="leading" secondItem="aAy-MF-vbF" secondAttribute="leadingMargin" constant="20" id="iAD-Tn-tfa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnDistance" destination="6v0-sJ-GSd" id="6US-P8-shA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xO-9w-hhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="220"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GMDistance.png" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16C68" minimumToolsVersion="Automatic">
+    <entity name="FuelPump" representedClassName="FuelPump" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="amountLimit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="amountUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuelIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fuelPrice" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fuelType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="isDiaplay" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isReserved" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="priceUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pumpIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pumpOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="reserveTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="serviceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="volumeLimit" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="volumeUnit" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RapidOnSitePumpCart" representedClassName="RapidOnSitePumpCart" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="amountLimit" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cartId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cartStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuelIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pumpIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="volumeLimit" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="RapidRMSPumpCart" representedClassName="RapidRMSPumpCart" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="amountLimit" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="approvedAmount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="balanceAmount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="caculatedFuelPrice" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="cartId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cartStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuelIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isPaid" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="paymentModeId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="paymentState" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pumpIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pumpStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regInvNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registerNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="serviceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transactionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="volumeLimit" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FuelPump" positionX="-63" positionY="-18" width="128" height="360"/>
+        <element name="RapidOnSitePumpCart" positionX="45" positionY="135" width="128" height="195"/>
+        <element name="RapidRMSPumpCart" positionX="160" positionY="192" width="128" height="375"/>
+    </elements>
+</model>

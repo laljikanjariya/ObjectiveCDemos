@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="PlayLists" representedClassName="PlayLists" syncable="YES">
+        <attribute name="pname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Songs" inverseName="palylist" inverseEntity="Songs" syncable="YES"/>
+    </entity>
+    <entity name="Songs" representedClassName="Songs" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="palylist" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlayLists" inverseName="songs" inverseEntity="PlayLists" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PlayLists" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="Songs" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>

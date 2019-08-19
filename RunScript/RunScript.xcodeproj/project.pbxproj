@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C08024021C05BB7D0082E08A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C08024011C05BB7D0082E08A /* main.m */; };
+		C08024051C05BB7D0082E08A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C08024041C05BB7D0082E08A /* AppDelegate.m */; };
+		C08024081C05BB7D0082E08A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08024071C05BB7D0082E08A /* ViewController.m */; };
+		C080240B1C05BB7D0082E08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08024091C05BB7D0082E08A /* Main.storyboard */; };
+		C080240D1C05BB7E0082E08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C080240C1C05BB7E0082E08A /* Assets.xcassets */; };
+		C08024101C05BB7E0082E08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C080240E1C05BB7E0082E08A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C08023FD1C05BB7D0082E08A /* RunScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08024011C05BB7D0082E08A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C08024031C05BB7D0082E08A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C08024041C05BB7D0082E08A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C08024061C05BB7D0082E08A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C08024071C05BB7D0082E08A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C080240A1C05BB7D0082E08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C080240C1C05BB7E0082E08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C080240F1C05BB7E0082E08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C08024111C05BB7E0082E08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C08023FA1C05BB7D0082E08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C08023F41C05BB7D0082E08A = {
+			isa = PBXGroup;
+			children = (
+				C08023FF1C05BB7D0082E08A /* RunScript */,
+				C08023FE1C05BB7D0082E08A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C08023FE1C05BB7D0082E08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C08023FD1C05BB7D0082E08A /* RunScript.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C08023FF1C05BB7D0082E08A /* RunScript */ = {
+			isa = PBXGroup;
+			children = (
+				C08024031C05BB7D0082E08A /* AppDelegate.h */,
+				C08024041C05BB7D0082E08A /* AppDelegate.m */,
+				C08024061C05BB7D0082E08A /* ViewController.h */,
+				C08024071C05BB7D0082E08A /* ViewController.m */,
+				C08024091C05BB7D0082E08A /* Main.storyboard */,
+				C080240C1C05BB7E0082E08A /* Assets.xcassets */,
+				C080240E1C05BB7E0082E08A /* LaunchScreen.storyboard */,
+				C08024111C05BB7E0082E08A /* Info.plist */,
+				C08024001C05BB7D0082E08A /* Supporting Files */,
+			);
+			path = RunScript;
+			sourceTree = "<group>";
+		};
+		C08024001C05BB7D0082E08A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08024011C05BB7D0082E08A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C08023FC1C05BB7D0082E08A /* RunScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08024141C05BB7E0082E08A /* Build configuration list for PBXNativeTarget "RunScript" */;
+			buildPhases = (
+				C08023F91C05BB7D0082E08A /* Sources */,
+				C08023FA1C05BB7D0082E08A /* Frameworks */,
+				C08023FB1C05BB7D0082E08A /* Resources */,
+				C08024171C05BB8B0082E08A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunScript;
+			productName = RunScript;
+			productReference = C08023FD1C05BB7D0082E08A /* RunScript.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C08023F51C05BB7D0082E08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Siya Infotech";
+				TargetAttributes = {
+					C08023FC1C05BB7D0082E08A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C08023F81C05BB7D0082E08A /* Build configuration list for PBXProject "RunScript" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C08023F41C05BB7D0082E08A;
+			productRefGroup = C08023FE1C05BB7D0082E08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C08023FC1C05BB7D0082E08A /* RunScript */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C08023FB1C05BB7D0082E08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08024101C05BB7E0082E08A /* LaunchScreen.storyboard in Resources */,
+				C080240D1C05BB7E0082E08A /* Assets.xcassets in Resources */,
+				C080240B1C05BB7D0082E08A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C08024171C05BB8B0082E08A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\necho \"Appsee - Starting debug symbols upload...\"\n\nAPIKEY=\"d47e513a78004eceab5eaa05029a90a2\"\nAPIURL=\"https://api.appsee.com/crashes/upload-symbols\"\n\n# Check given APIKey\nif [ ! \"${APIKEY}\" ]; then\necho \"Appsee - Please provide your API Key\"\necho \"Appsee - Usage: ./upload_symbols.sh APIKEY\"\nexit 1\nfi\n\n# Skip simulator build\nif [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\necho \"Appsee - Ignoring Simulator build\"\nexit 0\nfi\n\n# Skip simulator build\nif [ \"$CONFIGURATION\" != \"Release\" ]; then\necho \"Appsee - Ignoring Debug build\"\nexit 0\nfi\n\nDSYM_PATH=${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\nZIP_DIR=\"/tmp/Appsee\"\nZIP_PATH=\"${ZIP_DIR}/$DWARF_DSYM_FILE_NAME.zip\"\n\n# Check if zip directory available\nif [ ! -d \"$ZIP_DIR\" ]; then\nmkdir \"${ZIP_DIR}\"\nfi\n\n# Check if dSym available\nif [ ! -d \"$DSYM_PATH\" ]; then\necho \"Appsee - dSYM file not found on: ${DSYM_PATH}. Please contact support@appsee.com for assistance\"\nexit 1\nfi\n\n# Zip dSYM\ncd \"${DWARF_DSYM_FOLDER_PATH}\"\n/usr/bin/zip -D -r -q  \"${ZIP_PATH}\" \"${DWARF_DSYM_FILE_NAME}\"\n\nif [ $? -ne 0 ]; then\necho \"Appsee - dSYM zip failed. Please contact support@appsee.com for assistance\"\nexit 1\nfi\n\n# Upload dSYM\nRES=$(curl \"${APIURL}?APIKey=${APIKEY}\" --write-out %{http_code} --silent --output /dev/null -F dsym=@\"${ZIP_PATH}\")\nif [ $RES -ne 200 ]; then\necho \"Appsee - Upload failed with status $RES. Please contact support@appsee.com for assistance\"\nexit 1\nfi\n\n# Remove Zip file\n/bin/rm -f \"${ZIP_PATH}\"\n\necho \"Appsee - Debug symbols uploaded successfully\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C08023F91C05BB7D0082E08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08024081C05BB7D0082E08A /* ViewController.m in Sources */,
+				C08024051C05BB7D0082E08A /* AppDelegate.m in Sources */,
+				C08024021C05BB7D0082E08A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C08024091C05BB7D0082E08A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C080240A1C05BB7D0082E08A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C080240E1C05BB7E0082E08A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C080240F1C05BB7E0082E08A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C08024121C05BB7E0082E08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nirav Inc. (9UQF5C7AJR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nirav Inc. (9UQF5C7AJR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "61657c33-a5a9-4e92-966a-b9507cfed45b";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C08024131C05BB7E0082E08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nirav Inc. (9UQF5C7AJR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nirav Inc. (9UQF5C7AJR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "61657c33-a5a9-4e92-966a-b9507cfed45b";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C08024151C05BB7E0082E08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nirav Inc. (9UQF5C7AJR)";
+				INFOPLIST_FILE = RunScript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapidrms.pos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61657c33-a5a9-4e92-966a-b9507cfed45b";
+			};
+			name = Debug;
+		};
+		C08024161C05BB7E0082E08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nirav Inc. (9UQF5C7AJR)";
+				INFOPLIST_FILE = RunScript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapidrms.pos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61657c33-a5a9-4e92-966a-b9507cfed45b";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C08023F81C05BB7D0082E08A /* Build configuration list for PBXProject "RunScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08024121C05BB7E0082E08A /* Debug */,
+				C08024131C05BB7E0082E08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08024141C05BB7E0082E08A /* Build configuration list for PBXNativeTarget "RunScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08024151C05BB7E0082E08A /* Debug */,
+				C08024161C05BB7E0082E08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C08023F51C05BB7D0082E08A /* Project object */;
+}
